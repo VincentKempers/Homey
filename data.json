@@ -1,0 +1,80 @@
+{
+  "data": [
+    {
+      "title": "moviename",
+      "director": "name",
+      "genre": "horror",
+      "actors": [],
+      "year": 2020,
+      "running_time": "00: 00: 00",
+      "dialogue_lines": [
+        "quote1",
+        "quote2",
+        "quote3"
+      ],
+      "reviews": [
+        {
+          "reviewer": "username",
+          "content": "lorem ipsum",
+          "link": "https://google.com",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "username",
+          "content": "lorem ipsum",
+          "link": "https://google.com",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "username",
+          "content": "lorem ipsum",
+          "link": "https://google.com",
+          "website_name": "IMDB"
+        }
+      ],
+      "clips": [
+        "https://alsjdk.com/clip-directory/file.mp4",
+        "https://alsjdk.com/clip-directory/file.mp4",
+        "https://alsjdk.com/clip-directory/file.mp4"
+      ]
+    },
+    {
+      "title": "moviename",
+      "director": "name",
+      "genre": "horror",
+      "actors": [],
+      "year": 2020,
+      "running_time": "00: 00: 00",
+      "dialogue_lines": [
+        "quote1",
+        "quote2",
+        "quote3"
+      ],
+      "reviews": [
+        {
+          "reviewer": "username",
+          "content": "lorem ipsum",
+          "link": "https://google.com",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "username",
+          "content": "lorem ipsum",
+          "link": "https://google.com",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "username",
+          "content": "lorem ipsum",
+          "link": "https://google.com",
+          "website_name": "IMDB"
+        }
+      ],
+      "clips": [
+        "https://alsjdk.com/clip-directory/file.mp4",
+        "https://alsjdk.com/clip-directory/file.mp4",
+        "https://alsjdk.com/clip-directory/file.mp4"
+      ]
+    }
+  ]
+}
