@@ -3,7 +3,8 @@
     {
       "title": "Double Down",
       "director": "Neil Breen",
-      "genre": "Thiller",
+      "writer": ["Neil Breen"],
+      "genres": ["Thiller"],
       "actors": ["Neil Breen", "Laura Hale", "Mike brady", "Robert DiFrancesco", "Bonnie Carmalt", "George Kerr", "Maynard Mahier", "Rose Mahler", "Marry Taylor", "Huel Washington", "Bill Frid"],
       "year": 2005,
       "running_time": "01: 33: 00",
@@ -21,7 +22,6 @@
         {
           "reviewer": "admiraladama",
           "content": "Canned tuna.",
-          "link": "https://google.com",
           "website_name": "IMDB"
         }
       ],
@@ -43,6 +43,50 @@
         {
           "video": "https://youtu.be/_PtX6JHcjz4?t=241",
           "quote": "Governments don't dare try to kill me"
+        }
+      ]
+    },
+    {
+      "title": "Chopping mall",
+      "director": "Jim Wynorski",
+      "writer": ["Jim Wynorski, Steve Mitchell"],
+      "genres": ["Comedy", "Horror", "Sci-Fi"],
+      "actors": ["Kelli Maroney", "Tony O'dell", "Russel Rodd", "Karrie Emerson", "Barbara Crampton"],
+      "year": 1986,
+      "running_time": "01: 17: 00",
+      "reviews": [
+        {
+          "reviewer": "EdYerkeRobins",
+          "content": "Now I Fear Mall Security...",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "willywants",
+          "content": "Attention shoppers, prepare to die!",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "killer-robot!",
+          "content": "Uplifting film about robots breaking their programming.",
+          "website_name": "IMDB"
+        }
+      ],
+      "clips": [
+        {
+          "video": "https://www.youtube.com/watch?v=y5_8hP03JKU&ab_channel=CREEPSHOW",
+          "quote": [
+            "Thank you, have a nice day"
+            ]
+        },
+        {
+          "video": "https://www.youtube.com/watch?v=uJaUZVwmj8Q&ab_channel=bmoviereviews",
+          "quote": [
+            "I knew you bastards were gonna be trouble when they first brought you in here."
+          ]
+        },
+        {
+          "video": "https://www.youtube.com/watch?v=PirZDsJRpFY&ab_channel=bmoviereviews",
+          "quote": ""
         }
       ]
     }
