@@ -71,9 +71,24 @@
         }
       ],
       "clips": [
-        "https://alsjdk.com/clip-directory/file.mp4",
-        "https://alsjdk.com/clip-directory/file.mp4",
-        "https://alsjdk.com/clip-directory/file.mp4"
+        {
+          "video": "https://www.youtube.com/watch?v=HWFHCU4nxWw&has_verified=1&ab_channel=rettic",
+          "quote": [
+            "I need to know that something extraordinary is possible",
+            "Anything is possible",
+            "Oh jeez"
+            ]
+        },
+        {
+          "video": "https://youtu.be/_PtX6JHcjz4?t=129",
+          "quote": [
+            "I can steal any car any time."
+          ]
+        },
+        {
+          "video": "https://youtu.be/_PtX6JHcjz4?t=241",
+          "quote": "Governments don't dare try to kill me"
+        }
       ]
     }
   ]
