@@ -1,71 +1,26 @@
 {
   "data": [
     {
-      "title": "moviename",
-      "director": "name",
-      "genre": "horror",
-      "actors": [],
-      "year": 2020,
-      "running_time": "00: 00: 00",
-      "dialogue_lines": [
-        "quote1",
-        "quote2",
-        "quote3"
-      ],
+      "title": "Double Down",
+      "director": "Neil Breen",
+      "genre": "Thiller",
+      "actors": ["Neil Breen", "Laura Hale", "Mike brady", "Robert DiFrancesco", "Bonnie Carmalt", "George Kerr", "Maynard Mahier", "Rose Mahler", "Marry Taylor", "Huel Washington", "Bill Frid"],
+      "year": 2005,
+      "running_time": "01: 33: 00",
       "reviews": [
         {
-          "reviewer": "username",
-          "content": "lorem ipsum",
-          "link": "https://google.com",
+          "reviewer": "KissMyAss31193",
+          "content": "God finally has a name",
           "website_name": "IMDB"
         },
         {
-          "reviewer": "username",
-          "content": "lorem ipsum",
-          "link": "https://google.com",
+          "reviewer": "Quinoa1984",
+          "content": "Sometimes you don't watch a film, rather you *survive* it.",
           "website_name": "IMDB"
         },
         {
-          "reviewer": "username",
-          "content": "lorem ipsum",
-          "link": "https://google.com",
-          "website_name": "IMDB"
-        }
-      ],
-      "clips": [
-        "https://alsjdk.com/clip-directory/file.mp4",
-        "https://alsjdk.com/clip-directory/file.mp4",
-        "https://alsjdk.com/clip-directory/file.mp4"
-      ]
-    },
-    {
-      "title": "moviename",
-      "director": "name",
-      "genre": "horror",
-      "actors": [],
-      "year": 2020,
-      "running_time": "00: 00: 00",
-      "dialogue_lines": [
-        "quote1",
-        "quote2",
-        "quote3"
-      ],
-      "reviews": [
-        {
-          "reviewer": "username",
-          "content": "lorem ipsum",
-          "link": "https://google.com",
-          "website_name": "IMDB"
-        },
-        {
-          "reviewer": "username",
-          "content": "lorem ipsum",
-          "link": "https://google.com",
-          "website_name": "IMDB"
-        },
-        {
-          "reviewer": "username",
-          "content": "lorem ipsum",
+          "reviewer": "admiraladama",
+          "content": "Canned tuna.",
           "link": "https://google.com",
           "website_name": "IMDB"
         }
