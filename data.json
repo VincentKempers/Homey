@@ -2,8 +2,8 @@
   "data": [
     {
       "title": "Double Down",
-      "director": "Neil Breen",
-      "writer": ["Neil Breen"],
+      "directors": ["Neil Breen"],
+      "writers": ["Neil Breen"],
       "genres": ["Thiller"],
       "actors": ["Neil Breen", "Laura Hale", "Mike brady", "Robert DiFrancesco", "Bonnie Carmalt", "George Kerr", "Maynard Mahier", "Rose Mahler", "Marry Taylor", "Huel Washington", "Bill Frid"],
       "year": 2005,
@@ -48,8 +48,8 @@
     },
     {
       "title": "Chopping mall",
-      "director": "Jim Wynorski",
-      "writer": ["Jim Wynorski, Steve Mitchell"],
+      "directors": ["Jim Wynorski"],
+      "writers": ["Jim Wynorski, Steve Mitchell"],
       "genres": ["Comedy", "Horror", "Sci-Fi"],
       "actors": ["Kelli Maroney", "Tony O'dell", "Russel Rodd", "Karrie Emerson", "Barbara Crampton"],
       "year": 1986,
@@ -82,6 +82,55 @@
           "video": "https://www.youtube.com/watch?v=uJaUZVwmj8Q&ab_channel=bmoviereviews",
           "quote": [
             "I knew you bastards were gonna be trouble when they first brought you in here."
+          ]
+        },
+        {
+          "video": "https://www.youtube.com/watch?v=PirZDsJRpFY&ab_channel=bmoviereviews",
+          "quote": ""
+        }
+      ]
+    },
+    {
+      "title": "Zaat",
+      "directors": ["Arnold Stevens", "Don Barton"],
+      "writers": ["Ron Kivett, Lee O. Larew", "Don Barton", "Arnold Stevens"],
+      "genres": ["Horror", "Sci-Fi"],
+      "actors": ["Marshall Grauer","Wade Popwell", "Paul Galloway", "Gerald Cruse", "Sanna Ringhaver"],
+      "year": 1971,
+      "running_time": "01: 40: 00",
+      "reviews": [
+        {
+          "reviewer": "jampbrid",
+          "content": "Just like Free Willy, The Bear, or any Pauly Shore movie, this flick was just a marketing ploy to get me to buy walking catfish t-shirts, catfish video games, and Popeil's Pocket Fisherman.",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "urto123",
+          "content": "The Worst Hero ",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "MartinHafer",
+          "content": "I can only think of one film I have seen that is worse...and I've seen a lot of very bad films. ",
+          "website_name": "IMDB"
+        },
+        {
+          "reviewer": "george_pleasant",
+          "content": "I'm planning revenge on my friends ",
+          "website_name": "IMDB"
+        }
+      ],
+      "clips": [
+        {
+          "video": "https://www.youtube.com/watch?v=y5_8hP03JKU&ab_channel=CREEPSHOW",
+          "quote": [
+            ""
+            ]
+        },
+        {
+          "video": "https://www.youtube.com/watch?v=uJaUZVwmj8Q&ab_channel=bmoviereviews",
+          "quote": [
+            ""
           ]
         },
         {
