@@ -1,7 +1,7 @@
 <template>
   <div class="container">
-    <h1>Homey</h1>
-    <p>a new project by nick and vinn</p>
+    <h1>Storing some b movie data</h1>
+    
   </div>
 </template>
 
