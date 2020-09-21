@@ -1,6 +1,7 @@
 <template>
   <div class="container">
     <h1>Homey</h1>
+    <p>a new project by nick and vinn</p>
   </div>
 </template>
 
