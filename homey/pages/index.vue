@@ -1,9 +1,11 @@
 <template>
   <div class="container">
     <h1>Storing some B movie data</h1>
-    <div v-for="data in myJson" :key="data.title">
+    <section v-for="data in myJson" :key="data.title">
+      <p>hasdhaks</p>
       <h2>{{ data.title }}</h2>
-    </div>
+      <h2>{{ data.title }}</h2>
+    </section>
   </div>
 </template>
 
