@@ -1,12 +1,22 @@
 <template>
   <div class="container">
-    <h1>Storing some b movie data</h1>
-    
+    <h1>Storing some B movie data</h1>
+    <div v-for="data in myJson" :key="data.title">
+      <h2>{{ data.title }}</h2>
+    </div>
   </div>
 </template>
 
 <script>
-export default {}
+import dataMovies from '../data.json'
+
+export default {
+  data () {
+    return {
+      myJson: dataMovies
+    }
+  }
+}
 </script>
 
 <style>
