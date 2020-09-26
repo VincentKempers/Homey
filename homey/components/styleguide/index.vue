@@ -5,6 +5,7 @@
       <p>Here you can find all the atoms</p>
       <div class="atoms--items">
         <Logo />
+        <HeaderItem />
       </div>
     </section>
     <section class="style--molecules">
@@ -27,6 +28,7 @@
 <script>
 // =============== ATOMS ===============
 import Logo from '../atoms/Logo'
+import HeaderItem from '../atoms/HeaderItem'
 
 // =============== Molecules ===============
 import Header from '../molecules/Header'
@@ -36,6 +38,7 @@ import Header from '../molecules/Header'
 export default {
   components: {
     Logo,
+    HeaderItem,
     Header
   }
 }

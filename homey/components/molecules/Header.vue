@@ -6,7 +6,7 @@
         <ul>
           <li>About</li>
           <li>MOTW</li>
-          <li>search component</li>
+          <li>Search component</li>
         </ul>
       </div>
     </nav>
