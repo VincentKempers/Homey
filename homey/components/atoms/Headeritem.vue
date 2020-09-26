@@ -1,7 +1,7 @@
 <template>
-  <router-link :to="linkForButton">
+  <router-link :to="url">
     <button class="headerItem--button">
-      {{ textForButton }}
+      {{ text }}
     </button>
   </router-link>
 </template>
@@ -9,11 +9,11 @@
 <script>
 export default {
   props: {
-    textForButton: {
+    text: {
       type: String,
       default: 'something'
     },
-    linkForButton: {
+    url: {
       type: String,
       default: '/'
     }
@@ -37,6 +37,8 @@ export default {
     border: none;
     border-radius: .7rem;
     padding: 1rem;
+    min-width: 8rem;
+    max-width: 9rem;
     transition: background-color .4s ease-in;
   }
 
