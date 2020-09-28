@@ -1,15 +1,13 @@
 <template>
   <a href="/" tabindex="0">
-    <div class="line"></div>
-    <div class="line"></div>
-    <div class="line"></div>
+    <div class="line" />
+    <div class="line" />
+    <div class="line" />
   </a>
 </template>
 
 <script>
-export default {
-
-}
+export default {}
 </script>
 
 <style scoped>
