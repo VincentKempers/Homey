@@ -6,6 +6,8 @@
       <div class="atoms--items">
         <Logo />
         <HeaderItem />
+        <ShinyButton />
+        <MobileMenu />
       </div>
     </section>
     <section class="style--molecules">
@@ -29,6 +31,8 @@
 // =============== ATOMS ===============
 import Logo from '../atoms/Logo'
 import HeaderItem from '../atoms/HeaderItem'
+import ShinyButton from '../atoms/ShinyButton'
+import MobileMenu from '../atoms/MobileMenu'
 
 // =============== Molecules ===============
 import Header from '../molecules/Header'
@@ -39,7 +43,9 @@ export default {
   components: {
     Logo,
     HeaderItem,
-    Header
+    Header,
+    MobileMenu,
+    ShinyButton
   }
 }
 </script>
@@ -58,6 +64,9 @@ export default {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+  }
+
+  .atoms--items > *{
     margin-right: 2rem;
   }
 
