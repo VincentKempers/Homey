@@ -1,6 +1,6 @@
 <template>
   <button class="shiny--button">
-    very shiny
+    Shiny promo button
   </button>
 </template>
 
@@ -12,7 +12,7 @@ export default {
 
 <style scoped>
   .shiny--button {
-    background: orange;
+    background: black;
     color: #fff;
     font-size: 1rem;
     border-radius: 0.5em;
