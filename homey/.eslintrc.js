@@ -5,16 +5,18 @@ module.exports = {
     node: true
   },
   parserOptions: {
-    parser: 'babel-eslint'
+    parser: "babel-eslint"
   },
   extends: [
-    '@nuxtjs',
-    'plugin:nuxt/recommended'
+    "@nuxtjs",
+    "plugin:nuxt/recommended"
   ],
   plugins: [
   ],
   // add your custom rules here
   rules: {
-    semi: ['error', 'always']
+    indent: ["error", 2],
+    quotes: ["error", "double"],
+    semi: ["error", "always"]
   }
 };
