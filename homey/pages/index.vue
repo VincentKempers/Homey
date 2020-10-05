@@ -4,8 +4,6 @@
     <div class="container">
       <h1>Storing some B movie data</h1>
       <section v-for="data in myJson" :key="data.title">
-        <p>hasdhaks</p>
-        <h2>{{ data.title }}</h2>
         <h2>{{ data.title }}</h2>
       </section>
     </div>
@@ -13,8 +11,8 @@
 </template>
 
 <script>
-import dataMovies from '../data.json'
-import Header from '../components/molecules/Header'
+import dataMovies from '../data.json';
+import Header from '../components/molecules/Header';
 
 export default {
   components: {
@@ -23,9 +21,14 @@ export default {
   data () {
     return {
       myJson: dataMovies
+    };
+  },
+  computed: {
+    showData () {
+      return console.log(this.myJson);
     }
   }
-}
+};
 </script>
 
 <style>

@@ -29,13 +29,13 @@
 
 <script>
 // =============== ATOMS ===============
-import Logo from '../atoms/Logo'
-import HeaderItem from '../atoms/HeaderItem'
-import ShinyButton from '../atoms/ShinyButton'
-import MobileMenu from '../atoms/MobileMenu'
+import Logo from '../atoms/Logo';
+import HeaderItem from '../atoms/HeaderItem';
+import ShinyButton from '../atoms/ShinyButton';
+import MobileMenu from '../atoms/MobileMenu';
 
 // =============== Molecules ===============
-import Header from '../molecules/Header'
+import Header from '../molecules/Header';
 
 // =============== ORGANISMS ===============
 
@@ -47,7 +47,7 @@ export default {
     MobileMenu,
     ShinyButton
   }
-}
+};
 </script>
 
 <style scoped>

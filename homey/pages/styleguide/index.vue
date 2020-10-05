@@ -6,10 +6,10 @@
 </template>
 
 <script>
-import Styleguide from '../../components/styleguide'
+import Styleguide from '../../components/styleguide';
 export default {
   Styleguide
-}
+};
 </script>
 
 <style scoped>
