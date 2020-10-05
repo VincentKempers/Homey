@@ -21,7 +21,10 @@
       <h2>Organisms</h2>
       <p>Here you can find all the Organisms</p>
       <div class="organisms--items">
-        <p>Nothing yet</p>
+        <button @click="showOverlay()">
+          Click to open overlay
+        </button>
+        <Overlay :visible="overlayProp" @hideOverlay="hideOverlay" />
       </div>
     </section>
   </div>
@@ -38,6 +41,7 @@ import MobileMenu from "../atoms/MobileMenu";
 import Header from "../molecules/Header";
 
 // =============== ORGANISMS ===============
+import Overlay from "../organisms/Overlay";
 
 export default {
   components: {
@@ -45,7 +49,21 @@ export default {
     HeaderItem,
     Header,
     MobileMenu,
-    ShinyButton
+    ShinyButton,
+    Overlay
+  },
+  data () {
+    return {
+      overlayProp: false
+    };
+  },
+  methods: {
+    showOverlay () {
+      this.overlayProp = true;
+    },
+    hideOverlay () {
+      this.overlayProp = false;
+    }
   }
 };
 </script>
