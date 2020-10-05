@@ -14,7 +14,7 @@
 </template>
 
 <script>
-import HeaderItem from '../atoms/HeaderItem';
+import HeaderItem from "../atoms/HeaderItem";
 
 export default {
   components: {

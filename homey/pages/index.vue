@@ -11,8 +11,8 @@
 </template>
 
 <script>
-import dataMovies from '../data.json';
-import Header from '../components/molecules/Header';
+import dataMovies from "../data.json";
+import Header from "../components/molecules/Header";
 
 export default {
   components: {

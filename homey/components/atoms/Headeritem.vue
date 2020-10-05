@@ -11,11 +11,11 @@ export default {
   props: {
     text: {
       type: String,
-      default: 'something'
+      default: "something"
     },
     url: {
       type: String,
-      default: '/'
+      default: "/"
     }
   }
 };
