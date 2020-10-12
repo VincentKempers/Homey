@@ -8,6 +8,7 @@
         <HeaderItem />
         <ShinyButton />
         <MobileMenu />
+        <NextButton />
       </div>
     </section>
     <section class="style--molecules">
@@ -36,6 +37,7 @@ import Logo from "../atoms/Logo";
 import HeaderItem from "../atoms/HeaderItem";
 import ShinyButton from "../atoms/ShinyButton";
 import MobileMenu from "../atoms/MobileMenu";
+import NextButton from "../atoms/NextButton";
 
 // =============== Molecules ===============
 import Header from "../molecules/Header";
@@ -50,6 +52,7 @@ export default {
     Header,
     MobileMenu,
     ShinyButton,
+    NextButton,
     Overlay
   },
   data () {
@@ -69,30 +72,30 @@ export default {
 </script>
 
 <style scoped>
-  .styleguide > section {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-content: center;
-    margin: 4rem 0rem;
-  }
+    .styleguide > section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-content: center;
+        margin: 4rem 0rem;
+    }
 
-  .atoms--items {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-  }
+    .atoms--items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
 
-  .atoms--items > *{
-    margin-right: 2rem;
-  }
+    .atoms--items > *{
+        margin-right: 2rem;
+    }
 
-  .molecules--items, .organisms--items {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items:left;
-    margin: 2rem 0;
-  }
+    .molecules--items, .organisms--items {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items:left;
+        margin: 2rem 0;
+    }
 </style>
