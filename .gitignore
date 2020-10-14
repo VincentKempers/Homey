@@ -174,5 +174,7 @@ test/
 dist/
 yarn-error.log
 
+
+.vscode
 # End of https://www.toptal.com/developers/gitignore/api/macos,vuejs,nuxt,nuxtjs,vue,node
 
