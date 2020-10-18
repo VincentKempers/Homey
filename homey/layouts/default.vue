@@ -5,7 +5,18 @@
 </template>
 
 <style>
+
 html {
+  @font-face {
+    font-family: 'Montserrat Medium';
+    src: url(../assets/Montserrat-Medium.otf);
+  }
+
+  @font-face {
+    font-family: 'Montserrat Regular';
+    src: url('../assets/Montserrat-Regular.otf');
+  }
+
   font-family:
     'Source Sans Pro',
     -apple-system,
@@ -29,6 +40,10 @@ html {
 *::after {
   box-sizing: border-box;
   margin: 0;
+}
+
+h1, h2 ,h3, h4,h5,h6 {
+  font-family: 'Montserrat Medium';
 }
 
 .button--green {
