@@ -1,24 +1,16 @@
 <template>
   <header>
     <nav>
-      <h1>B-movie experience</h1>
-      <div class="socials">
-        <ul>
-          <HeaderItem :url="'/styleguide'" :text="'style page'" />
-          <HeaderItem :url="'/'" :text="'MOTW'" />
-          <li>Search component</li>
-        </ul>
-      </div>
+      <h1 class="font-logo">
+        Balthazar's movies
+      </h1>
     </nav>
   </header>
 </template>
 
 <script>
-import HeaderItem from "../atoms/HeaderItem";
-
 export default {
   components: {
-    HeaderItem
   }
 };
 </script>
@@ -28,30 +20,31 @@ header {
   width: 100%;
 }
 
-header > nav > h1 {
-  font-size: 1.5rem;
-}
-
 nav {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
-  padding: 2rem 4.5rem;
-  border-bottom: black .4rem solid;
-  box-shadow: -.1rem -0.4rem 5rem .4rem rgba(0,0,0,0.2);
+  padding: 4rem 4.5rem;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-content: space-evenly;
+header > nav > h1 {
+  font-size: 1.5rem;
+  color: #FFC000;
+  letter-spacing: 20px;
+  text-transform: uppercase;
+  margin-top: 3rem;
 }
 
-nav ul > * {
-  margin: 0 .9rem;
+header > nav > h1:before{
+  content:'';
+  border-bottom: 1px solid #FFC000;
+  width: 4em;
+  display: block;
+  margin: 0 auto;
+  /* position: absolute; */
+  top: 0;
+  transform: rotate(90deg) translateX(-5rem);
 }
 
 </style>
