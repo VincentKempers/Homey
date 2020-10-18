@@ -17,6 +17,11 @@ html {
     src: url('../assets/Montserrat-Regular.otf');
   }
 
+@font-face {
+    font-family: 'Minion Pro Regular';
+    src: url('../assets/MinionPro-Regular.otf');
+  }
+
   font-family:
     'Source Sans Pro',
     -apple-system,
