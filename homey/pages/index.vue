@@ -1,8 +1,7 @@
 <template>
-  <div>
+  <div class="container">
     <Header />
-    <div class="container">
-      <h1>Storing some B movie data</h1>
+    <div class="main-content">
       <section v-for="data in myJson" :key="data.title">
         <h2>{{ data.title }}</h2>
       </section>
@@ -33,8 +32,12 @@ export default {
 
 <style>
 .container {
-  margin: 0 auto;
+  background-color: #232323;
   min-height: 100vh;
+}
+
+.main-content {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
   align-items: center;
