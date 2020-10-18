@@ -2,6 +2,7 @@
   <div class="container">
     <Header />
     <div class="main-content">
+      <!-- doesn't show anything for now -->
       <section v-for="data in myJson" :key="data.title">
         <h2>{{ data.title }}</h2>
       </section>
