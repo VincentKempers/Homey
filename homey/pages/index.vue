@@ -10,8 +10,8 @@
 
 <script>
 import dataMovies from "../data.json";
-import Header from "../components/molecules/Header";
-import Carousel from "../components/organisms/Carousel";
+import Header from "../components/molecules/Header.vue";
+import Carousel from "../components/organisms/Carousel.vue";
 
 export default {
   components: {
