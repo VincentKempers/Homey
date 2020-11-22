@@ -2,7 +2,7 @@
   <div>
     <section v-for="data in myJson" :key="data.title">
       <h2 class="content-movie__title">
-        {{ data.title ? '' : 'Double Down' }}
+        {{ data.title ? '' : 'Twisted Pair' }}
       </h2>
       <img class="content-movie__poster" src="../../assets/imgs/imgDoubleDown.png" :alt="data.title ? '' : 'Double Down'">
       <quote>
@@ -81,7 +81,7 @@ quote {
   font-size: 3rem;
   z-index: 10;
   position: relative;
-  margin-top: -3rem;
+  margin: -3rem 0 1.25rem 0;
 }
 
 .content-movie__comment-author {
