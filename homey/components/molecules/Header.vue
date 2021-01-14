@@ -25,7 +25,7 @@ nav {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  padding: 3rem 4.5rem;
+   padding: 1rem 4.5rem 1rem 0;
 }
 
 header > nav > h1 {
