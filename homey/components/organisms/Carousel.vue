@@ -1,5 +1,11 @@
 <template>
   <div>
+    <div class="navigation-prev">
+      <p class="navigation-prev__text">
+        previous
+      </p>
+      <div class="navigation-prev__line" />
+    </div>
     <section v-for="data in myJson" :key="data.title">
       <h2 class="content-movie__title">
         {{ data.title ? '' : 'Twisted Pair' }}
@@ -14,18 +20,12 @@
         </em>
       </quote>
     </section>
-
-    <!-- @TODO: Make component -->
-    <!-- <div class="navigation">
-      <div class="navigation-prev">
-        <p class="navigation-prev__text">previous</p>
-        <div class="navigation-prev__line"></div>
-      </div>
-      <div class="navigation-next">
-        <p class="navigation-next__text">previous</p>
-        <div class="navigation-next__line"></div>
-      </div>
-    </div> -->
+    <div class="navigation-next">
+      <p class="navigation-next__text">
+        previous
+      </p>
+      <div class="navigation-next__line" />
+    </div>
   </div>
 </template>
 
