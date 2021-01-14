@@ -1,6 +1,8 @@
 <template>
-  <div>
-    <div class="navigation-prev">
+  <div class="carousel-navigation">
+    <div
+      class="navigation navigation-prev"
+    >
       <p class="navigation-prev__text">
         previous
       </p>
@@ -20,9 +22,9 @@
         </em>
       </quote>
     </section>
-    <div class="navigation-next">
+    <div class="navigation navigation-next">
       <p class="navigation-next__text">
-        previous
+        next
       </p>
       <div class="navigation-next__line" />
     </div>
@@ -90,5 +92,25 @@ quote {
   font-weight: 800;
   color: #FFC000;
   letter-spacing: 18px;
+}
+
+.carousel-navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  color: #FFC000;
+  width: 100%;
+}
+
+.navigation {
+  background-color: #FFC000;
+  height: 1px;
+  width: 20rem;
+}
+
+.navigation-next__text {
+  background-color: #232323;
+  width: auto;
 }
 </style>
